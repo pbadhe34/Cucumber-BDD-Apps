@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Get The sum of two numbers",
+        "description": "",
+        "id": "sum-of-two-numbers;get-the-sum-of-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141944865,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters first number",
+            "match": {
+              "location": "TestSum.java:11"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36570,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters second number",
+            "match": {
+              "location": "TestSum.java:15"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32721,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hits enter key",
+            "match": {
+              "location": "TestSum.java:19"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59668,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the sum of two numbers should be displayed",
+            "match": {
+              "location": "TestSum.java:23"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SUM of two numbers",
+    "description": "",
+    "id": "sum-of-two-numbers",
+    "keyword": "Feature",
+    "uri": "sum.feature"
+  }
+]

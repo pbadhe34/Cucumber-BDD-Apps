@@ -1,0 +1,362 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 876543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:20"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the output with get",
+        "description": "",
+        "id": "test-the-rest-api-from-server;verify-the-output-with-get",
+        "after": [
+          {
+            "result": {
+              "duration": 413057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:60"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182250101,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "connect to REST GET URL",
+            "match": {
+              "location": "Test_REST_Get.java:63"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9173867,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send get request",
+            "match": {
+              "location": "Test_REST_Get.java:75"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8467089,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the get http response code",
+            "match": {
+              "location": "Test_REST_Get.java:91"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1675710,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the get output",
+            "match": {
+              "location": "Test_REST_Get.java:104"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@GetTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 234823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:20"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify with  post new data",
+        "description": "",
+        "id": "test-the-rest-api-from-server;verify-with--post-new-data",
+        "after": [
+          {
+            "result": {
+              "duration": 351079,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:60"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192093,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "connect to REST POST URL",
+            "match": {
+              "location": "Test_REST_Post.java:49"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4278777,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "send post request",
+            "match": {
+              "location": "Test_REST_Post.java:60"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4103237,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the post http response code",
+            "match": {
+              "location": "Test_REST_Post.java:115"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037069,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the post output",
+            "match": {
+              "location": "Test_REST_Post.java:94"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@PostTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:20"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify the output with PUT",
+        "description": "",
+        "id": "test-the-rest-api-from-server;verify-the-output-with-put",
+        "after": [
+          {
+            "result": {
+              "duration": 553181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:60"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61208,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "connect to REST PUT URL",
+            "match": {
+              "location": "Test_REST_PUT.java:42"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49274,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "send put request",
+            "match": {
+              "location": "Test_REST_PUT.java:46"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37341,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify the put http response code",
+            "match": {
+              "location": "Test_REST_PUT.java:50"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67367,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the put output",
+            "match": {
+              "location": "Test_REST_PUT.java:54"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@PutTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 160912,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:20"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify the output with Delete",
+        "description": "",
+        "id": "test-the-rest-api-from-server;verify-the-output-with-delete",
+        "after": [
+          {
+            "result": {
+              "duration": 136659,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:60"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74297,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "connect to REST delete URL",
+            "match": {
+              "location": "Test_REST_Delete.java:42"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94699,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "send delete request",
+            "match": {
+              "location": "Test_REST_Delete.java:46"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76606,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "verify the delete http response code",
+            "match": {
+              "location": "Test_REST_Delete.java:50"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36956,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify the delete output",
+            "match": {
+              "location": "Test_REST_Delete.java:54"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@DeleteTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test the REST API from server",
+    "description": "",
+    "id": "test-the-rest-api-from-server",
+    "keyword": "Feature",
+    "uri": "rest-test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TestRest"
+      }
+    ]
+  }
+]

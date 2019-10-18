@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="Login and logOut Action" name="Successful Login and with Valid Credentials and logout" time="0">
+<system-out><![CDATA[Given User is on Home Page..................................................skipped
+When User Navigate to LogIn Page............................................skipped
+And User enters UserName and Password.......................................skipped
+Then Message displayed Login Successfully...................................skipped
+When User LogOut from the Application.......................................skipped
+Then Message displayed LogOut Successfully..................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="SUM of two numbers" name="Get The sum of two numbers" time="0">
+<system-out><![CDATA[When user enters first number...............................................skipped
+And user enters second number...............................................skipped
+And user hits enter key.....................................................skipped
+Then the sum of two numbers should be displayed.............................skipped
+]]></system-out>
+</testcase>
+</testsuite>

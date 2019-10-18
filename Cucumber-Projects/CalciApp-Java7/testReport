@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 486583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSum.init(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get The sum of two numbers",
+        "description": "",
+        "id": "sum-of-two-numbers;get-the-sum-of-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 248681,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSum.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150223370,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters first number",
+            "match": {
+              "location": "TestSum.getFirstNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46965,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters second number",
+            "match": {
+              "location": "TestSum.getSecondNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123186,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hits enter key",
+            "match": {
+              "location": "TestSum.GteSumByEnterKey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2403660,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the sum of two numbers should match",
+            "match": {
+              "location": "TestSum.verifySum()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SUM of two numbers",
+    "description": "",
+    "id": "sum-of-two-numbers",
+    "keyword": "Feature",
+    "uri": "sum.feature"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Get The sum of two numbers",
+        "description": "",
+        "id": "sum-of-two-numbers;get-the-sum-of-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138839476,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters first number",
+            "match": {
+              "location": "CucumberRun.java:10"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45425,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters second number",
+            "match": {
+              "location": "CucumberRun.java:15"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34261,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hits enter key",
+            "match": {
+              "location": "CucumberRun.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33491,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the sum of two numbers should be displayed",
+            "match": {
+              "location": "CucumberRun.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SUM of two numbers",
+    "description": "",
+    "id": "sum-of-two-numbers",
+    "keyword": "Feature",
+    "uri": "sum.feature"
+  }
+]

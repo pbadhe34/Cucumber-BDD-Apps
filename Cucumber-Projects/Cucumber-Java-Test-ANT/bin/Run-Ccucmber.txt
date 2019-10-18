@@ -1,0 +1,6 @@
+
+java cucumber.api.cli.Main --help
+java cucumber.api.cli.Main specs --glue com.data
+
+java cucumber.api.cli.Main specs --glue com.data --plugin pretty --plugin junit:target/cucumber-junit-report.xml --plugin html:target/cucumber-html-report
+
